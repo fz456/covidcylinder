@@ -1,0 +1,4 @@
+D:\NGO\HelpCylinder.Web\HelpCylinder.BusinessLogic\bin\Debug\netstandard2.0\HelpCylinder.BusinessEntities.dll
+D:\NGO\HelpCylinder.Web\HelpCylinder.BusinessLogic\obj\Debug\netstandard2.0\HelpCylinder.BusinessLogic.csprojAssemblyReference.cache
+D:\NGO\HelpCylinder.Web\HelpCylinder.BusinessLogic\obj\Debug\netstandard2.0\HelpCylinder.BusinessLogic.AssemblyInfoInputs.cache
+D:\NGO\HelpCylinder.Web\HelpCylinder.BusinessLogic\obj\Debug\netstandard2.0\HelpCylinder.BusinessLogic.AssemblyInfo.cs

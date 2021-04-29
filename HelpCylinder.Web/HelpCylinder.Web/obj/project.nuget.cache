@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5+wJb0x2IoAM48bxGS4pnnpT/T6k+I+UwLuSjIE9FDeD/kWVs9V82nOMC1K6FxzDIsTZVm3YEzTeuyECVIVwmA==",
+  "success": true,
+  "projectFilePath": "D:\\NGO\\HelpCylinder.Web\\HelpCylinder.Web\\HelpCylinder.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fsyed\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}
