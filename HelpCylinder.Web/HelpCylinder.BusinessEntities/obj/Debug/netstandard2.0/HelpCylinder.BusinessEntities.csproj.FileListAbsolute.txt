@@ -1,4 +1,0 @@
-D:\NGO\HelpCylinder.Web\HelpCylinder.BusinessEntities\bin\Debug\netstandard2.0\HelpCylinder.BusinessEntities.deps.json
-D:\NGO\HelpCylinder.Web\HelpCylinder.BusinessEntities\bin\Debug\netstandard2.0\HelpCylinder.BusinessEntities.dll
-D:\NGO\HelpCylinder.Web\HelpCylinder.BusinessEntities\obj\Debug\netstandard2.0\HelpCylinder.BusinessEntities.AssemblyInfoInputs.cache
-D:\NGO\HelpCylinder.Web\HelpCylinder.BusinessEntities\obj\Debug\netstandard2.0\HelpCylinder.BusinessEntities.AssemblyInfo.cs
