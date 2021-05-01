@@ -1,0 +1,185 @@
+﻿@model IEnumerable<HelpCylinder.BusinessEntities.Request>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RequestId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CallerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CallerMobileNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientAge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientMobileNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AirSaturation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.O2Need)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HasEmptyCylinder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NeedGuageMeter)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NeedMask)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NeedPanel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pincode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReferredByName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReferredByMobile)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NeedDoorDelivery)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RequestType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BloodGroup)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientAdhaarPath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DrPrescriptionPath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Hrct)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rtpcr)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequestId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CallerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CallerMobileNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientAge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientMobileNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirSaturation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.O2Need)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HasEmptyCylinder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NeedGuageMeter)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NeedMask)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NeedPanel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pincode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferredByName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReferredByMobile)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NeedDoorDelivery)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequestType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BloodGroup)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PatientAdhaarPath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DrPrescriptionPath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Hrct)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rtpcr)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
